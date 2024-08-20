@@ -2,7 +2,7 @@ import React from "react";
 import Socials from './Socials.tsx'
 
 
-export default function Header({arrowIcon, timelineRef}) {
+export default function About({arrowIcon, timelineRef}) {
     function handleScroll() {
         window.scroll({
           top: document.body.offsetHeight,
@@ -24,7 +24,7 @@ export default function Header({arrowIcon, timelineRef}) {
 
     return (
     <div className="pt-40 font-mono tracking-wide bg-transparent flex flex-col items-center justify-center pb-5 snap-start">
-        <img className="inline object-cover w-40 h-40 mr-2 rounded-full" src="https://img.icons8.com/?size=100&id=RKoVHgQbQEQB&format=png&color=000000" alt="Profile image"/>
+        <img className="inline object-cover w-40 h-40 mr-2 rounded-full" src="https://img.icons8.com/?size=100&id=RKoVHgQbQEQB&format=png&color=000000" alt="icon"/>
 
         <div className="cursor-pointer  pt-10 top-0 flex flex-col items-center justify-center  space-y-4 ">
           <div className="group inline-flex overflow-hidden text-[length:--size] font-thin leading-none text-white/50 transition [--size:theme(fontSize.3xl)] lg:[--size:theme(fontSize.5xl)] [--color:theme(textColor.white)] [--duration:280ms] hover:text-[--color]">

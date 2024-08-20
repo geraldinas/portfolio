@@ -1,5 +1,5 @@
 import './App.css';
-import Header from './components/Header.tsx'
+import About from './components/About.tsx';
 import Timeline from './components/Timeline.tsx'
 
 export const lightIcon = (
@@ -18,7 +18,7 @@ export const arrowIcon = (
 function App() {
   return (
     <main className="bg-gradient-to-r from-zinc-900 to-zinc-800 min-h-screen pt-30 pb-15 scroll-smooth h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth transision-all ">
-      <Header arrowIcon={arrowIcon}/>
+      <About arrowIcon={arrowIcon}/>
 
       <div className="font-mono flex justify-center text-zinc-50 p-10 pb-20 min-h-screen snap-start">
         <Timeline/>
