@@ -109,27 +109,6 @@ export default function Timeline(timelineRef) {
                         </div>
                     </li>
                     
-                    {/* ___________________ 4 item________________________ */}
-                    <li className="relative flex items-baseline gap-6 pb-5">
-                        <div className="before:absolute before:left-[5.5px] before:h-full before:w-[1px] before:bg-gray-400">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" className="bi bi-circle-fill fill-gray-400" viewBox="0 0 16 16">
-                                <circle cx="8" cy="8" r="8" />
-                            </svg>
-                        </div>
-                        <div>
-                            <p className="flex items-stretch text-base lg:text-xl text-zinc-50 font-bold">Spanish Assistant Professor: College of Charleston
-                                <span className="self-center capitalize text-sm font-light pl-2 hidden md:inline">01/12 - 10/13
-                                </span>
-                            </p>
-                            <p className="brightness-50 hover:brightness-200 text-zinc-50 text-sm capitalize max-w-2xl">
-                                <ul className="list-disc">
-                                    <li>
-                                    Taught college-level Spanish courses, including speech classes, and contributed to lesson plan development.
-                                    </li>
-                                </ul>
-                            </p>
-                        </div>
-                    </li>
                 </ul>
                 {/* ___________________ COMMUNITY________________________ */}
                 <h2 className="flex text-xl text-zinc-50 font-bold mb-7 uppercase pt-10"> <span  className="pr-2">{lightIcon}</span>Community</h2>
