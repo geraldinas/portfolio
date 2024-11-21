@@ -1,6 +1,7 @@
 import './App.css';
 import About from './components/About.tsx';
 import Timeline from './components/Timeline.tsx'
+import { useRef } from 'react';
 
 export const lightIcon = (
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -16,11 +17,13 @@ export const arrowIcon = (
 
 
 function App() {
+  const timelineRef = useRef(null);
+
   return (
     <main className="bg-gradient-to-r from-zinc-900 to-zinc-800 min-h-screen pt-30 pb-15 scroll-smooth h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth transision-all ">
-      <About arrowIcon={arrowIcon}/>
+      <About arrowIcon={arrowIcon} timelineRef={timelineRef}/>
 
-      <div className="font-mono flex justify-center text-zinc-50 p-10 pb-20 min-h-screen snap-start">
+      <div ref={timelineRef} className="font-mono flex justify-center text-zinc-50 p-10 pb-20 min-h-screen snap-start">
         <Timeline/>
       </div>
     </main>
