@@ -21,7 +21,7 @@ export default function Socials() {
     return (
         <div className="font-mono uppercase text-md text-zinc-50 bg-transparent flex items-center justify-center pt-2">
             <div className="flex">
-                <a className="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400        self-center p-5" aria-label="Link to Email" target="_blank" rel="noreferrer" href="mailto:geraldinagalvarez@gmail.com">
+                <a className="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400        self-center p-5" aria-label="Link to Email" target="_blank" rel="noreferrer" href="mailto:g.geraldina.alvarez@gmail.com">
                     {emailIcon}
                 </a>
                 <a className="p-5 self-center" target="_blank" rel="noreferrer" aria-label="Link to Github" href="https://github.com/geraldinas">

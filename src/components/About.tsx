@@ -11,10 +11,10 @@ export default function About({arrowIcon, timelineRef}) {
 
     const aboutMe = (
         <div className="font-mono flex flex-col items-center justify-center text-zinc-50 p-10 pb-20">
-            <p className=" cursor-pointer text-sm md:hover:scale-125 md:transition ease-in-out md:max-w-6xl md:text-lg">
-              Hello! I'm a Software Engineer based in NYC, driven by a passion for education, mentorship, and bridging art with technology. My journey with programing began exploring Arduino, AI, and later web development, through self-learning and training at the Flatiron School. I'm dedicated to building thoughtful, efficient, and accessible solutions.
-              <br></br>
-              I care deeply about fostering diversity in tech and creating beautifully clear documentation to enhance collaboration. My mission is to contribute to projects that connect people while keeping the human touch at the forefront. Outside of tech, I have a deep appreciation for large-scale painting and creative expression.
+            <p className=" text-sm md:transition ease-in-out md:max-w-6xl md:text-lg">
+            Hello! I'm a Software Engineer based in NYC, driven by a passion for education, mentorship, and bridging art with technology. My journey with programming began exploring Arduino, AI, and later web development, through self-learning and training at the Flatiron School. I'm dedicated to building thoughtful, efficient, and accessible solutions.
+            <br></br>
+            I care deeply about fostering diversity in tech and creating beautifully clear documentation to enhance collaboration. My mission is to contribute to projects that connect people while keeping the human touch at the forefront. Outside of tech, I love working on large-scale painting and creative expression.
             </p>
         </div>
     );
